@@ -16,19 +16,6 @@ import { Textarea } from "../ui/textarea";
 import { usePathname, useRouter } from "next/navigation";
 import { ThreadValidation } from "@/lib/validations/user";
 import { createThread } from "@/lib/actions/thread.actions";
-// import { updateUser } from "@/lib/actions/user.actions";
-
-interface Props {
-  user: {
-    id: string;
-    objectId: string;
-    username: string;
-    name: string;
-    bio: string;
-    image: string;
-  };
-  btnTitle: string;
-}
 
 const PostThread = ({ userId }: { userId: string }) => {
   const router = useRouter();
