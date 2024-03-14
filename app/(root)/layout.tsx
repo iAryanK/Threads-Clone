@@ -11,8 +11,8 @@ import Bottombar from "@/components/shared/Bottombar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Uniport",
-  description: "A Next.js 14 Uniport Application",
+  title: "Threads",
+  description: "A Next.js 14 Threads web Application",
 };
 
 export default function RootLayout({
